@@ -77,5 +77,7 @@ nuovo_appartamento_scaled = scaler.transform(nuovo_appartamento)
 
 # Prediciamo il prezzo
 prezzo_predetto = model.predict(nuovo_appartamento_scaled)[0]
-print(f"\nPrezzo predetto per il nuovo appartamento: {prezzo_predetto:.2f} €")
 # stampiamo il prezzo del nuovo appartamento
+print(f"\nPrezzo predetto per il nuovo appartamento: {prezzo_predetto:.2f} €")
+
+
